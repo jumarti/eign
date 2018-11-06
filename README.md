@@ -1,10 +1,14 @@
-# Word hash task
+# Word hash Task
 
 ## Instalation
-python 3.
+`requires python3`
+```
+git clone git@github.com:jumarti/eign.git
 
+```
 ## Usage from shell
 ```
+cd eign
 python -m task.main --help
 usage: main.py [-h] [-f GPATT] [-l] [-d] [-o FMT] [-e HEAD]
 
