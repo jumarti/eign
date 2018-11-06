@@ -3,6 +3,19 @@ import re
 from collections import OrderedDict
 
 class Aggregator():
+	'''
+	Processes lines of input text in order to count words' frequencies and
+	store each word's sentence is being mentioned.
+	the method process_line processes an input line
+	the method output returns a formatted (html or markdown) table
+
+	The table shows, per word: count, sentences the word is mentioned, and
+	documents_labels* where found
+
+	* The class processes lines w/o knowing the source. When process_line
+	is called, a source_id is labeled by the caller.
+	'''
+
 	def __init__(self):
 		self.words = {}
 		self.sentences = {}
