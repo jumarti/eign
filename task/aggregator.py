@@ -5,7 +5,7 @@ from collections import OrderedDict
 class Aggregator():
 	'''
 	Processes lines of input text in order to count words' frequencies and
-	store each word's sentence is being mentioned.
+	store each sentence a word is mentioned.
 	the method process_line processes an input line
 	the method output returns a formatted (html or markdown) table
 
